@@ -1,12 +1,12 @@
-var a,b,result;
+var x,y,result;
 
-a = 0;
-b = 1;
-result = b;
+x = 0;
+y = 1;
+result = y;
 
 for(var i = 1; i < 100; i++) {
     document.write(result + "<br>");
-    result = a + b;
-    a = b; 
-    b = result;
+    result = x + y;
+    x = y; 
+    y = result;
 }
